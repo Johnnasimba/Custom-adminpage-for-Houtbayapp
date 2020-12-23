@@ -1,4 +1,7 @@
-
+.buttons .logout a {
+    text-decoration: none;
+    color: white;
+}
 .buttons ul {
     list-style-type: none;
 
