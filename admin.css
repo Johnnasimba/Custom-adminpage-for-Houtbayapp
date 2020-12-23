@@ -1,0 +1,48 @@
+.buttons {
+    background-color: beige;
+}
+
+
+.buttons ul {
+    list-style-type: none;
+
+}
+        .buttons ul li:first-child {
+            background-color: rgb(10, 44, 238)
+        }
+        .buttons ul li:nth-child(2) {
+            background-color: green;
+        }
+        .buttons ul li:last-child {
+            background-color: brown;
+        }
+.buttons ul li {
+  
+    color: white;
+    margin: 5px;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+
+}
+.buttons ul li:hover {
+    filter: brightness(50%);
+}
+
+
+
+.client-request {
+    background-color: cadetblue;
+}
+
+@media screen and (min-width : 600px) {
+    .buttons ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .buttons ul li {
+        width: 400px;
+    }
+}
